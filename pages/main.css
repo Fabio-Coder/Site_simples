@@ -1,6 +1,6 @@
 * {
   color: var(--fontColor);
-  font-family: monospace;
+  font-family: helvetica;
 }
 
 :root {
@@ -9,12 +9,12 @@
   --black: #000000;
 }
 body {
-  font-family: monospace;
+  font-family: helvetica;
   background-color: var(--bg);
 }
 
 ul {
-  font-family: helvética;
+  font-family: helvetica;
 }
 
 li {
@@ -26,7 +26,7 @@ li {
 }
 
 #msg {
-  font-family: monospace;
+  font-family: helvetica;
 }
 
 .light-theme {
@@ -42,7 +42,7 @@ li {
   --btnBg: var(--white);
   --btnFontColor: var(--black);
 }
-.btn {
+.button {
   position: absolute;
   top: 20px;
   left: 250px;
@@ -54,6 +54,6 @@ li {
   background-color: var(--btnBg);
 }
 
-.btn:focus {
+.button:focus {
   outline: none;
 }
